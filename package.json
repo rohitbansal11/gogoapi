@@ -6,7 +6,7 @@
     "type": "module",
     "types": "lib/types/index.d.ts",
     "scripts": {
-        "start": "node lib/api.js",
+        "start": "nodemon lib/api.js",
         "dev": "nodemon lib/api.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
